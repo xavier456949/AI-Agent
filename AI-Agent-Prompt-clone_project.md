@@ -1,6 +1,6 @@
 # AI Agent Prompt For Monitor AI Studio Website Clone - non-Fresh Project
 
-The application is an AI studio designed to clone the website https://hongyangdevelopment.com/; this is not a fresh project.
+The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
 
 ## Things you need to know:
 * The AI studio typically clones one page at a time rather than the entire website simultaneously.

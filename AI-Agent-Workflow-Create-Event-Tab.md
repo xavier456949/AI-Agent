@@ -223,11 +223,65 @@ Once the AI Studio finishes, check:
 
 1. Events appear under the correct tab.
 2. Events are in the correct order (newest first), placed after the anchor event if one was specified.
-3. Each event card shows the **exact thumbnail image** and the image URL points to the clone site (e.g. `https://singaporemoutai.com/wp-content/uploads/...`), **not** chinabaijiu.com.sg.
+3. Each event card shows the **exact thumbnail image** and the image URL points to the clone site (e.g. `vibe.filesafe.space/...`), **not** chinabaijiu.com.sg.
 4. Clicking an event card opens an **internal page** within the site (not chinabaijiu.com.sg).
 5. The internal event page URL matches the slug (e.g., `/event/moutai-overseas-distributors-conference`).
 6. The internal event page **contains the cloned content** from the source event detail page (title, body text, images — not a blank page).
-7. **All images in the event body** point to the clone site — right-click any inline image and check its URL. It should be on `singaporemoutai.com`, not `chinabaijiu.com.sg`.
+7. **All images in the event body** point to the clone site — right-click any inline image and check its URL. It should be on `vibe.filesafe.space`, not `chinabaijiu.com.sg`.
 8. Event dates and titles are accurate (compare against the user's provided event list and source site).
 9. Layout is correct on desktop, tablet, and mobile views.
 10. Note the **last anchor event** for the next batch if more events are to be added to the same tab.
+
+---
+
+## Fix Prompts for Common Issues
+
+Use these targeted prompts when verification reveals problems. Paste into AI Studio as a single message.
+
+---
+
+### Fix A — All images still hotlinked across an entire tab
+
+**When to use:** After initial creation, all or most events in a tab still have images pointing to `chinabaijiu.com.sg`. This is the most common issue — always apply this fix to all events in the tab together, not one at a time.
+
+**Prompt template:**
+```
+For the [N] existing events under the [YEAR] tab, fix all image hotlinks: for each event listed, download the feature image and all inline images in the event content to local first, then upload from local to our site, and replace all existing image URLs that point to chinabaijiu.com.sg with the newly uploaded local URLs. Process image downloads and uploads in batches of 5 at a time before moving to the next batch. Event 1: /event/[SLUG-1] — feature image at [IMAGE_URL_1] Event 2: /event/[SLUG-2] — feature image at [IMAGE_URL_2] [... repeat for all events]
+```
+
+**Example (2017 tab, 5 events):**
+```
+For the 5 existing events under the 2017 tab, fix all image hotlinks: for each event listed, download the feature image and all inline images in the event content to local first, then upload from local to our site, and replace all existing image URLs that point to chinabaijiu.com.sg with the newly uploaded local URLs. Process image downloads and uploads in batches of 5 at a time before moving to the next batch. Event 1: /event/moutai-overseas-distributors-conference — feature image at https://chinabaijiu.com.sg/wp-content/uploads/2017/11/Screenshot-2025-07-30-165814-300x221.png Event 2: /event/baijiu-fans-double-festival-gala-dinner — feature image at https://chinabaijiu.com.sg/wp-content/uploads/2017/10/Screenshot-2025-07-30-172944-300x192.png Event 3: /event/f1-baijiu-fans-passion-night — feature image at https://chinabaijiu.com.sg/wp-content/uploads/2026/01/0-42-300x199.webp Event 4: /event/singapore-baijiu-association-hong-huo-signature-dish — feature image at https://chinabaijiu.com.sg/wp-content/uploads/2026/01/0-7-2-300x225.webp Event 5: /event/singapore-52nd-national-day-moutai-event — feature image at https://chinabaijiu.com.sg/wp-content/uploads/2026/01/0-2-2-300x234.webp
+```
+
+---
+
+### Fix B — Content Not Cloned (event page is blank)
+
+**When to use:** A specific event page exists but the body is blank or shows no cloned content.
+
+**Prompt template:**
+```
+For the event at /event/[SLUG], the content was not cloned. Clone the full content from [SOURCE_EVENT_URL] into this event page, then download all images in the cloned content to local and upload from local to our site — replace all chinabaijiu.com.sg image URLs with the uploaded local URLs. Process image downloads and uploads in batches of 5 at a time.
+```
+
+---
+
+### Fix C — Remaining Hotlinked Images on a Specific Event
+
+**When to use:** Most images were uploaded correctly but a few images in one event are still hotlinked.
+
+**Prompt template:**
+```
+For the event at /event/[SLUG], some inline images are still hotlinked to chinabaijiu.com.sg (e.g. [PASTE ONE EXAMPLE BAD URL]). Go through all images in this event's content, find any that still point to chinabaijiu.com.sg, download each to local, upload from local to our site, and replace the URLs. Process image downloads and uploads in batches of 5 at a time.
+```
+
+---
+
+### Combining Multiple Fix Types in One Prompt
+
+When a tab has both missing content and hotlinked images across multiple events, combine into one prompt:
+
+```
+Fix the following issues across the [N] events under the [YEAR] tab. Process image downloads and uploads in batches of 5 at a time. For all events listed, download the feature image and all inline images to local first, then upload from local to our site, replacing all chinabaijiu.com.sg image URLs with local ones. For events marked "re-clone", clone the content from the source URL first, then do the image fix. Event 1: /event/[SLUG-1] — feature image at [IMAGE_URL_1] Event 2: /event/[SLUG-2] — feature image at [IMAGE_URL_2] — re-clone content from [SOURCE_EVENT_URL] [... repeat for all events]
+```

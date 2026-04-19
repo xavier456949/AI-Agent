@@ -68,7 +68,22 @@ A single prompt ready to paste into AI Studio — no further editing needed. Exa
 - Events are in the correct order (newest first)
 - Each event card shows the correct thumbnail image
 - Clicking an event opens an internal page (URL starts with `singaporemoutai.com/event/...`)
-- Right-click any image on the event page → the image URL should be on `singaporemoutai.com`, not `chinabaijiu.com.sg`
+- Right-click any image on the event page → the image URL should be on `vibe.filesafe.space`, not `chinabaijiu.com.sg`
+- Each event body has content (not blank)
+
+---
+
+## If Something Went Wrong — Fix Prompts
+
+After checking, if you find issues, tell the AI what went wrong and it will give you a targeted fix prompt to paste into AI Studio.
+
+**Issue: Content not cloned (event page is blank)**
+Tell the AI: `The event at /event/[slug] has no content cloned.`
+
+**Issue: Images still pointing to chinabaijiu.com.sg**
+Tell the AI: `Images in /event/[slug] are still hotlinked to chinabaijiu.com.sg — for example [paste one of the bad image URLs].`
+
+You can report multiple issues at once and the AI will combine them into a single fix prompt.
 
 ---
 
@@ -76,6 +91,6 @@ A single prompt ready to paste into AI Studio — no further editing needed. Exa
 
 - **Chinese titles** → AI fetches from `chinabaijiu.com.sg/cn/活动/`
 - **English titles** → AI fetches from `chinabaijiu.com.sg/en/events/`
-- All images (thumbnails + body images) are downloaded and uploaded to the clone site — no hotlinking
+- All images (thumbnails + body images) must end up on `vibe.filesafe.space` — no hotlinking from chinabaijiu.com.sg
 - Image uploads are processed in batches of 5 to avoid overloading the server
 - Do not mix events from different year tabs in one prompt

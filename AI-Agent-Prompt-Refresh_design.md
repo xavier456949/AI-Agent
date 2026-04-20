@@ -25,6 +25,7 @@ Work Details: The application on this page is an AI studio designed to refresh t
 9. check if all the buttons, links are connected to the correct pages.
 10. Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
 11. If got blog/event/media page, make sure each blog got its own page, and all the links are connected to the correct pages. Click on the image and title shall also be able to enter the post page.
+12. If user has provided company contact, address, emails, check all the contact details are updated in the contact page and footer.
 
 ## Rules to Follow:
 1. **Single Message Prompts:** Avoid pressing "Enter" until the prompt is finished, as it will send immediately; you can create prompts without new lines to prevent this.

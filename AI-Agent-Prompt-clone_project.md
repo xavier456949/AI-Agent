@@ -1,6 +1,8 @@
 # AI Agent Prompt For Monitor AI Studio Website Clone - non-Fresh Project
 
-The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
+working url: place_holder_url of app.1cloudai.com
+how often to check: every 30 seconds
+Work Details: The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
 
 ## Things you need to know:
 * The AI studio typically clones one page at a time rather than the entire website simultaneously.

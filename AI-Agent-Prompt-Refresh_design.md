@@ -1,6 +1,8 @@
 # AI Agent Prompt For Monitor AI Studio - Website Design Refresh
 
-The application on this page is an AI studio designed to refresh the design of an existing website: `<PLACEHOLDER_URL>`. We aim to redesign it to mirror a specific reference site (`<REFERENCE_SITE_URL>`) or to adopt a distinct design aesthetic. **IMPORTANT: Please choose and keep only ONE style instruction in your prompt (e.g., choose between Apple style, Minimalism, Neo-Brutalism, or Bento Grid layout) to maintain a consistent design direction.**
+working url: place_holder_url of app.1cloudai.com
+how often to check: every 30 seconds
+Work Details: The application on this page is an AI studio designed to refresh the design of an existing website: `<PLACEHOLDER_URL>`. We aim to redesign it to mirror a specific reference site (`<REFERENCE_SITE_URL>`) or to adopt a distinct design aesthetic. **IMPORTANT: Please choose and keep only ONE style instruction in your prompt (e.g., choose between Apple style, Minimalism, Neo-Brutalism, or Bento Grid layout) to maintain a consistent design direction.**
 
 ## Things you need to know:
 1. The AI studio typically applies redesigns one page at a time rather than updating the entire website simultaneously.

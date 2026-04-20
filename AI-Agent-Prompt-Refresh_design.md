@@ -23,6 +23,7 @@ Work Details: The application on this page is an AI studio designed to refresh t
 7. If errors occur during the styling changes, refresh the page or step back using the **view history icon** at the top right of the chat window to restore the last stable state.
 8. If the original website had widgets (e.g., a chatbot or WhatsApp button), verify that they are integrated harmoniously into the new UI.
 9. check if all the buttons, links are connected to the correct pages.
+10. Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
 
 ## Rules to Follow:
 1. **Single Message Prompts:** Avoid pressing "Enter" until the prompt is finished, as it will send immediately; you can create prompts without new lines to prevent this.

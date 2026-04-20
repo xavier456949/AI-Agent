@@ -26,6 +26,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 * If errors occur, refresh the page or use the view history icon at the top right of the chat window to restore the last edit.
 * If the original site had a chatbot or WhatsApp button, instruct the AI to set up the widget using the relevant code.
 * check if all the buttons, links are connected to the correct pages.
+* Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
 
 ## Rules to Follow:
 * Send prompts as a single, complete message.

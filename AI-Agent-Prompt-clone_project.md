@@ -27,6 +27,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 * If the original site had a chatbot or WhatsApp button, instruct the AI to set up the widget using the relevant code.
 * check if all the buttons, links are connected to the correct pages.
 * Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
+* If got blog/event/media page, make sure each blog got its own page, and all the links are connected to the correct pages. Click on the image and title shall also be able to enter the post page.
 
 ## Rules to Follow:
 * Send prompts as a single, complete message.

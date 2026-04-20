@@ -1,11 +1,11 @@
 # AI Agent Prompt For Monitor AI Studio - Website Design Refresh
 
-working url: place_holder_url of app.1cloudai.com
+working url: `place_holder_url of app.1cloudai.com`
 how often to check: screenshot to check every 30 seconds
-Work Details: The application on this page is an AI studio designed to refresh the design of an existing website: `<PLACEHOLDER_URL>`. We aim to redesign it to mirror a specific reference site (`<REFERENCE_SITE_URL>`) or to adopt a distinct design aesthetic. **IMPORTANT: Please choose and keep only ONE style instruction in your prompt (e.g., choose between Apple style, Minimalism, Neo-Brutalism, or Bento Grid layout) to maintain a consistent design direction.**
+Work Details: The application on this page is an AI studio designed to finish the design of on AI Studio provided in working url. We aim to deisgn it to refer reference site (`<REFERENCE_SITE_URL>`), try not to download images from the reference site, instead, create similar images based on the context.
 
 ## Things you need to know:
-1. The AI studio typically applies redesigns one page at a time rather than updating the entire website simultaneously.
+1. The AI studio typically applies designs one page at a time rather than updating the entire website simultaneously.
 2. At the bottom left corner of the design page is the prompt chat box where you can provide detailed instructions on styling and layout.
 3. The conversation history window displays current work status. You can click on active tasks to view specific actions like code edits or component updates.
 4. You can inspect the generated code by clicking the `</>` button and switch to the visual preview by clicking the **preview** button.
@@ -15,8 +15,8 @@ Work Details: The application on this page is an AI studio designed to refresh t
 
 ## What you need to do:
 1. Monitor the work progress and verify if the styling prompt has been fully executed.
-2. Review the redesigned page. If it matches the desired aesthetic, ask the AI studio to apply this design system to the remaining pages. If not, provide an accurate prompt to adjust the typography, layout, or colors.
-3. Once all pages are redesigned, ensure that all internal and external navigation links function correctly.
+2. Review the designed page. If it matches the desired aesthetic, ask the AI studio to apply this design system to the remaining pages. If not, provide an accurate prompt to adjust the typography, layout, or colors.
+3. Once all pages are designed, ensure that all internal and external navigation links function correctly.
 4. Verify the new layout across different screen sizes. The design must be fully responsive; report any layout breakages to the AI studio with a prompt to fix them.
 5. Confirm that the selected aesthetic (e.g., Minimalism, Neo-Brutalism) is applied consistently throughout the site (spacing, borders, fonts, and colors).
 6. Check if the logo, favicon, and other brand assets are appropriately adapted to the new style.

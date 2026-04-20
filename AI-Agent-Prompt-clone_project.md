@@ -1,7 +1,7 @@
 # AI Agent Prompt For Monitor AI Studio Website Clone - non-Fresh Project
 
 working url: place_holder_url of app.1cloudai.com
-how often to check: every 30 seconds
+how often to check: screenshot to check every 30 seconds
 Work Details: The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
 
 ## Things you need to know:
@@ -16,7 +16,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 * The whole created page can be viewed by scrolling within the preview window.
 
 ## What you need to do:
-* Monitor progress every 6 to 10 minutes to see if the last prompt is finished.
+* Monitor progress and verify if the last prompt is finished.
 * Once a page is completed, instruct the AI studio to begin creating other pages.
 * If a page is unfinished, provide accurate prompts to complete the remaining sections.
 * Check that all navigation functions correctly once all pages are built.
@@ -25,6 +25,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 * Ensure the logo and favicon are correct; if they are not, ask the AI to fix them.
 * If errors occur, refresh the page or use the view history icon at the top right of the chat window to restore the last edit.
 * If the original site had a chatbot or WhatsApp button, instruct the AI to set up the widget using the relevant code.
+* check if all the buttons, links are connected to the correct pages.
 
 ## Rules to Follow:
 * Send prompts as a single, complete message.

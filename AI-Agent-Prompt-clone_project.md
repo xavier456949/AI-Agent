@@ -1,6 +1,8 @@
 # AI Agent Prompt For Monitor AI Studio Website Clone - non-Fresh Project
 
-The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
+working url: place_holder_url of app.1cloudai.com
+how often to check: screenshot to check every 30 seconds
+Work Details: The application is an AI studio designed to clone the website <PLACEHOLDER_URL>; this is not a fresh project.
 
 ## Things you need to know:
 * The AI studio typically clones one page at a time rather than the entire website simultaneously.
@@ -14,7 +16,7 @@ The application is an AI studio designed to clone the website <PLACEHOLDER_URL>;
 * The whole created page can be viewed by scrolling within the preview window.
 
 ## What you need to do:
-* Monitor progress every 6 to 10 minutes to see if the last prompt is finished.
+* Monitor progress and verify if the last prompt is finished.
 * Once a page is completed, instruct the AI studio to begin creating other pages.
 * If a page is unfinished, provide accurate prompts to complete the remaining sections.
 * Check that all navigation functions correctly once all pages are built.
@@ -23,6 +25,10 @@ The application is an AI studio designed to clone the website <PLACEHOLDER_URL>;
 * Ensure the logo and favicon are correct; if they are not, ask the AI to fix them.
 * If errors occur, refresh the page or use the view history icon at the top right of the chat window to restore the last edit.
 * If the original site had a chatbot or WhatsApp button, instruct the AI to set up the widget using the relevant code.
+* check if all the buttons, links are connected to the correct pages.
+* Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
+* If got blog/event/media page, make sure each blog got its own page, and all the links are connected to the correct pages. Click on the image and title shall also be able to enter the post page.
+* If user has provided company contact, address, emails, check all the contact details are updated in the contact page and footer.
 
 ## Rules to Follow:
 * Send prompts as a single, complete message.

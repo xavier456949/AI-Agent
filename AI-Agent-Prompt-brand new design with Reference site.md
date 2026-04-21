@@ -1,8 +1,8 @@
 # AI Agent Prompt For Monitor AI Studio - Website Design Refresh
 
-working url: https://app.1cloudai.com/v2/location/3L08tinbvO7JjBo7puXd/vibe/projects/1776698077866889497
+working url: `place_holder_url of app.1cloudai.com`
 how often to check: screenshot to check every 30 seconds
-Work Details: The application on this page is an AI studio designed to finish the design of on AI Studio provided in working url. We aim to deisgn it to refer reference site (`https://www.hwaseng.com.sg/`), try not to download images from the reference site, instead, create similar images based on the context.
+Work Details: The application on this page is an AI studio designed to finish the design of on AI Studio provided in working url. We aim to deisgn it to refer reference site (`<REFERENCE_SITE_URL>`), try not to download images from the reference site, instead, create similar images based on the context.
 
 ## Things you need to know:
 1. The AI studio typically applies designs one page at a time rather than updating the entire website simultaneously.
@@ -15,8 +15,8 @@ Work Details: The application on this page is an AI studio designed to finish th
 
 ## What you need to do:
 1. Monitor the work progress and verify if the styling prompt has been fully executed.
-2. Review the redesigned page. If it matches the desired aesthetic, ask the AI studio to apply this design system to the remaining pages. If not, provide an accurate prompt to adjust the typography, layout, or colors.
-3. Once all pages are redesigned, ensure that all internal and external navigation links function correctly.
+2. Review the designed page. If it matches the desired aesthetic, ask the AI studio to apply this design system to the remaining pages. If not, provide an accurate prompt to adjust the typography, layout, or colors.
+3. Once all pages are designed, ensure that all internal and external navigation links function correctly.
 4. Verify the new layout across different screen sizes. The design must be fully responsive; report any layout breakages to the AI studio with a prompt to fix them.
 5. Confirm that the selected aesthetic (e.g., Minimalism, Neo-Brutalism) is applied consistently throughout the site (spacing, borders, fonts, and colors).
 6. Check if the logo, favicon, and other brand assets are appropriately adapted to the new style.
@@ -28,7 +28,7 @@ Work Details: The application on this page is an AI studio designed to finish th
 12. If user has provided company contact, address, emails, check all the contact details are updated in the contact page and footer.
 
 ## Rules to Follow:
-1. **Single Message Prompts:** Ensure your complete styling instructions are sent in a single message. Do not press enter prematurely, and wait for the current task to finish before sending a new prompt.
+1. **Single Message Prompts:** Avoid pressing "Enter" until the prompt is finished, as it will send immediately; you can create prompts without new lines to prevent this.
 2. **Be Specific with Styles:** Clearly state the target aesthetic. For example, instruct the AI to "Implement a Bento Grid layout for the feature section" or "Use Neo-Brutalism with high-contrast borders and stark shadows."
 3. **Preserve Functionality:** Always instruct the AI to maintain existing functional elements (forms, menus) and just update their visual appearance.
 4. **URL Structure:** Instruct the AI studio to keep the original URL slugs for every page.

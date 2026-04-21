@@ -10,7 +10,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 * The conversation history window displays current work status.
 * You can click on tasks in the history to see specific actions, such as code edits or image creation.
 * Previous conversations can be viewed by scrolling up and down in the chat window.
-* Use the `</>` button to inspect the generated code and the preview button to see the site layout.
+* Use the `</>` button to inspect the generated code and the globe icon beside the code inspection button to switch to preview.
 * The preview window allows you to check different pages and switch between desktop, tablet, and phone views.
 * You can refresh the design within the preview box using the refresh icon.
 * The whole created page can be viewed by scrolling within the preview window.

@@ -8,7 +8,7 @@ Work Details: The application on this page is an AI studio designed to finish th
 1. The AI studio typically applies designs one page at a time rather than updating the entire website simultaneously.
 2. At the bottom left corner of the design page is the prompt chat box where you can provide detailed instructions on styling and layout. Inside the chat box, there is a "Ask AI..." placeholder text.
 3. The conversation history window displays current work status. You can click on active tasks to view specific actions like code edits or component updates.
-4. You can inspect the generated code by clicking the `</>` button and switch to the visual preview by clicking the **preview** button.
+4. You can inspect the generated code by clicking the `</>` button and the globe icon beside the code inspection button to switch to preview.
 5. The preview window allows you to switch between pages and view layouts across desktop, tablet, and phone screen sizes using the respective icons.
 6. You can refresh the current design by clicking the **refresh icon** within the preview box.
 7. You can view the entire generated page by scrolling up and down within the preview window.
@@ -19,13 +19,14 @@ Work Details: The application on this page is an AI studio designed to finish th
 3. Once all pages are designed, ensure that all internal and external navigation links function correctly.
 4. Verify the new layout across different screen sizes. The design must be fully responsive; report any layout breakages to the AI studio with a prompt to fix them.
 5. Confirm that the selected aesthetic (e.g., Minimalism, Neo-Brutalism) is applied consistently throughout the site (spacing, borders, fonts, and colors).
-6. Check if the logo, favicon, and other brand assets are appropriately adapted to the new style.
-7. If errors occur during the styling changes, refresh the page or step back using the **view history icon** at the top right of the chat window to restore the last stable state.
-8. If the original website had widgets (e.g., a chatbot or WhatsApp button), verify that they are integrated harmoniously into the new UI.
-9. check if all the buttons, links are connected to the correct pages.
-10. Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
-11. If got blog/event/media page, make sure each blog got its own page, and all the links are connected to the correct pages. Click on the image and title shall also be able to enter the post page.
-12. If user has provided company contact, address, emails, check all the contact details are updated in the contact page and footer.
+6. Request the AI to generate a `sitemap_index.xml` that includes `page-index.xml`, `post-index.xml`, and `product-index.xml`.
+7. Check if the logo, favicon, and other brand assets are appropriately adapted to the new style.
+8. If errors occur during the styling changes, refresh the page or step back using the **view history icon** at the top right of the chat window to restore the last stable state.
+9. If the original website had widgets (e.g., a chatbot or WhatsApp button), verify that they are integrated harmoniously into the new UI.
+10. check if all the buttons, links are connected to the correct pages.
+11. Check if all the menu item are connected to the correct pages. If any menu item got no pages, create it.
+12. If got blog/event/media page, make sure each blog got its own page, and all the links are connected to the correct pages. Click on the image and title shall also be able to enter the post page.
+13. If user has provided company contact, address, emails, check all the contact details are updated in the contact page and footer.
 
 ## Rules to Follow:
 1. **Single Message Prompts:** Avoid pressing "Enter" until the prompt is finished, as it will send immediately; you can create prompts without new lines to prevent this.

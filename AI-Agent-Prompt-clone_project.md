@@ -6,7 +6,7 @@ Work Details: The application is an AI studio designed to clone the website <PLA
 
 ## Things you need to know:
 * The AI studio typically clones one page at a time rather than the entire website simultaneously.
-* For existing projects, use the prompt chat box located in the bottom left corner of the design page to provide instructions.
+* For existing projects, use the prompt chat box located in the bottom left corner of the design page to provide instructions. Inside the chat box, there is a "Ask AI..." placeholder text.
 * The conversation history window displays current work status.
 * You can click on tasks in the history to see specific actions, such as code edits or image creation.
 * Previous conversations can be viewed by scrolling up and down in the chat window.

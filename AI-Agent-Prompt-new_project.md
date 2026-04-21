@@ -6,7 +6,7 @@ Work Details: The application on this page is an AI studio designed to finish th
 
 ## Things you need to know:
 1. The AI studio typically applies designs one page at a time rather than updating the entire website simultaneously.
-2. At the bottom left corner of the design page is the prompt chat box where you can provide detailed instructions on styling and layout.
+2. At the bottom left corner of the design page is the prompt chat box where you can provide detailed instructions on styling and layout. Inside the chat box, there is a "Ask AI..." placeholder text.
 3. The conversation history window displays current work status. You can click on active tasks to view specific actions like code edits or component updates.
 4. You can inspect the generated code by clicking the `</>` button and switch to the visual preview by clicking the **preview** button.
 5. The preview window allows you to switch between pages and view layouts across desktop, tablet, and phone screen sizes using the respective icons.
